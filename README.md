@@ -1,4 +1,7 @@
 # InstallApplications
+
+**NOTE**: This is a fork of InstallApplications version 1.2.1 for reference purposes for an IAs demo at [The Rest of the Owl](https://therestoftheowl.com/blog/2018/11/26/installapplications-for-dummies-part-2/). It will most likely not be updated. Please reference [Erik Gomez's InstallApplications repo](https://github.com/erikng/installapplications) for the latest version of IAs.
+
 ![InstallApplications icon](/icon/installapplications.png?raw=true)
 
 InstallApplications is an alternative to tools like [PlanB](https://github.com/google/macops-planb) where you can dynamically download packages for use with `InstallApplication`. This is useful for DEP bootstraps, allowing you to have a significantly reduced initial package that can easily be updated without repackaging your initial package.
