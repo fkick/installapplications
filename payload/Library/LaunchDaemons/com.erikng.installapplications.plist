@@ -9,24 +9,15 @@
 		<string>/usr/bin/python</string>
 		<string>/Library/Application Support/installapplications/installapplications.py</string>
 		<string>--jsonurl</string>
-		<string>https://domain.tld</string>
-		<!-- <string>--iapath</string> -->
-		<!-- <string>/Library/Application Support/installapplications</string> -->
-		<!-- <string>--laidentifier</string> -->
-		<!-- <string>com.erikng.installapplications</string> -->
-		<!-- <string>--ldidentifier</string> -->
-		<!-- <string>com.erikng.installapplications</string> -->
-		<!-- <string>--depnotify</string> -->
-		<!-- <string>DEPNotifySkipStatus</string> -->
-		<!-- <string>Command: WindowTitle: InstallApplications is Awesome!</string> -->
-		<!-- <string>Command: NotificationOn:</string> -->
-		<!-- <string>Command: Quit: Thanks for using InstallApplications and DEPNotify.</string> -->
-		<!-- <string>Command: WindowStyle: ActivateOnStep</string> -->
-		<!-- <string>DEPNotifyPath: /Applications/Utilities/DEPNotify.app</string> -->
-		<!-- <string>DEPNotifyArguments: -munki</string> -->
-		<!-- <string>DEPNotifyArguments: -munki -fullScreen</string> -->
-		<!-- <string>--reboot</string> -->
-		<!-- <string>--skip-validation</string> -->
+		<string>https://installapplications.therestoftheowl.com/bootstrap.json</string>
+		<string>--depnotify</string>
+		<string>Status: Now setting up and configuring your machine...</string>
+  		<string>Command: Image: /Applications/Launchpad.app/Contents/Resources/Launchpad.icns</string>
+		<string>Command: NotificationOn:</string>
+		<string>Command: MainText: \nWe are setting up your Mac with a standard suite of software, configuration, and security policies. This process should only take a few minutes, so please don't restart your computer until we are finished.\n\nAt the end you will be asked to logout to start the FileVault disk encryption process.\n</string>
+		<string>Command: Logout: Device Enrollment complete. Please logout to begin FileVault encryption.</string>
+		<string>DEPNotifyPath: /Applications/Utilities/DEPNotify.app</string>
+		<string>DEPNotifyArguments: -munki -fullScreen</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
