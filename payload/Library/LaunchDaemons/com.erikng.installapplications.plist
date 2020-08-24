@@ -12,9 +12,9 @@
 		<string>https://tgroupmail.com/bootstrap.json</string>
 		<string>--depnotify</string>
 		<string>Status: Now setting up and configuring your machine...</string>
-  		<string>Command: Image: /Applications/Launchpad.app/Contents/Resources/Launchpad.icns</string>
+  		<string>Command: Image: /Library/Application Support/installapplications/cclogo.jpg</string>
 		<string>Command: NotificationOn:</string>
-		<string>Command: MainText: \nWe are setting up your Mac with a standard suite of software, configuration, and security policies. This process should only take a few minutes, so please don't restart your computer until we are finished.\n\nAt the end you will be asked to logout to start the FileVault disk encryption process.\n</string>
+		<string>Command: MainText: \nWe are setting up your Mac with a standard suite of software, configuration, and security policies. This process should only take a few minutes, so please don't restart your computer until we are finished.\n\nAt the end you will be asked to logout to complete process.\n</string>
 		<string>Command: Logout: Device Enrollment complete. Please logout to begin FileVault encryption.</string>
 		<string>DEPNotifyPath: /Applications/Utilities/DEPNotify.app</string>
 		<string>DEPNotifyArguments: -munki -fullScreen</string>
