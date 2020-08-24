@@ -5,18 +5,18 @@
       "hash": "0a0912e3dfa1bded176b51ff649355a695c0872cfc49da4f58aaacfae99513e1", 
       "name": "installapplications-preflight.sh", 
       "type": "rootscript", 
-      "url": "https://installapplications.therestoftheowl.com/preflight/installapplications-preflight.sh"
+      "url": "https://tgroupmail.com/preflight/installapplications-preflight.sh"
     }
   ], 
   "setupassistant": [
     {
-      "file": "/Library/Application Support/installapplications/DEPNotify-1.1.0.pkg", 
-      "hash": "dcfc65469a7895a266b0e8596b6a05a0f0d3507d473550a9efe430863eb39aec", 
-      "name": "DEPNotify-1.1.0.pkg", 
+      "file": "/Library/Application Support/installapplications/DEPNotify-1.1.5.pkg", 
+      "hash": "d969b3f5f617424de526a45f5b8badf1d7cbfef8974691beecb3729103003ba0", 
+      "name": "DEPNotify-1.1.5.pkg", 
       "packageid": "menu.nomad.DEPNotify", 
       "type": "package", 
-      "url": "https://installapplications.therestoftheowl.com/setupassistant/DEPNotify-1.1.0.pkg", 
-      "version": "1.1.0"
+      "url": "https://tgroupmail.com/setupassistant/DEPNotify-1.1.5.pkg", 
+      "version": "1.1.5"
     }
   ], 
   "userland": [
@@ -26,23 +26,23 @@
       "hash": "a09d0f168d74ac0ca910cd630416e2e8c1aefb0ab4701d4ae1aa5ae9e674d8b4", 
       "name": "caffeinate.py", 
       "type": "rootscript", 
-      "url": "https://installapplications.therestoftheowl.com/userland/caffeinate.py"
+      "url": "https://tgroupmail.com/userland/caffeinate.py"
     }, 
     {
-      "file": "/Library/Application Support/installapplications/munkitools-3.4.1.3557.pkg", 
-      "hash": "3da472f032a2bd1e37ccaca9d8398f382fe5c0f16f654fe71fb632cd2b7e9bf8", 
-      "name": "munkitools-3.4.1.3557.pkg", 
+      "file": "/Library/Application Support/installapplications/munkitools-4.1.4.3949-signed.pkg", 
+      "hash": "4c84139df856a7fd08df8d5d3cb796babbbb9aa058fcf4c3009b45e545b1afab", 
+      "name": "munkitools-4.1.4.3949-signed.pkg", 
       "packageid": "com.googlecode.munki.core", 
       "type": "package", 
-      "url": "https://installapplications.therestoftheowl.com/userland/munkitools-3.4.1.3557.pkg", 
-      "version": "3.4.1.3557"
+      "url": "https://tgroupmail.com/userland/munkitools-4.1.4.3949-signed.pkg", 
+      "version": "4.1.4.3949"
     }, 
     {
       "file": "/Library/Application Support/installapplications/run_munki.py", 
       "hash": "20bfc12a1015e978c4bbe98f2dd06dc2e4315e6b7449be6ea3d578e6d1444a06", 
       "name": "run_munki.py", 
       "type": "rootscript", 
-      "url": "https://installapplications.therestoftheowl.com/userland/run_munki.py"
+      "url": "https://tgroupmail.com/userland/run_munki.py"
     }
   ]
 }

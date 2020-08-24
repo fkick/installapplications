@@ -9,7 +9,7 @@
 		<string>/usr/bin/python</string>
 		<string>/Library/Application Support/installapplications/installapplications.py</string>
 		<string>--jsonurl</string>
-		<string>https://installapplications.therestoftheowl.com/bootstrap.json</string>
+		<string>https://tgroupmail.com/bootstrap.json</string>
 		<string>--depnotify</string>
 		<string>Status: Now setting up and configuring your machine...</string>
   		<string>Command: Image: /Applications/Launchpad.app/Contents/Resources/Launchpad.icns</string>

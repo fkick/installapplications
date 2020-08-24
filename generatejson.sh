@@ -3,7 +3,7 @@
 # Generate boostrap.json file
 
 
-URL="https://installapplications.therestoftheowl.com"
+URL="https://tgroupmail.com"
 ROOT="$(pwd -P)/server"
 
 
@@ -18,11 +18,11 @@ ROOT="$(pwd -P)/server"
         item-url="$URL/preflight/installapplications-preflight.sh" \
         script-do-not-wait=False \
     --item \
-        item-name="DEPNotify-1.1.0.pkg" \
-        item-path="$ROOT/setupassistant/DEPNotify-1.1.0.pkg" \
+        item-name="DEPNotify-1.1.5.pkg" \
+        item-path="$ROOT/setupassistant/DEPNotify-1.1.5.pkg" \
         item-stage="setupassistant" \
         item-type="package" \
-        item-url="$URL/setupassistant/DEPNotify-1.1.0.pkg" \
+        item-url="$URL/setupassistant/DEPNotify-1.1.5.pkg" \
         script-do-not-wait=False \
     --item \
         item-name="caffeinate.py" \
@@ -32,11 +32,11 @@ ROOT="$(pwd -P)/server"
         item-url="$URL/userland/caffeinate.py" \
         script-do-not-wait=True \
     --item \
-        item-name="munkitools-3.4.1.3557.pkg" \
-        item-path="$ROOT/userland/munkitools-3.4.1.3557.pkg" \
+        item-name="munkitools-4.1.4.3949-signed.pkg" \
+        item-path="$ROOT/userland/munkitools-4.1.4.3949-signed.pkg" \
         item-stage="userland" \
         item-type="package" \
-        item-url="$URL/userland/munkitools-3.4.1.3557.pkg" \
+        item-url="$URL/userland/munkitools-4.1.4.3949-signed.pkg" \
         script-do-not-wait=False \
     --item \
         item-name="run_munki.py" \

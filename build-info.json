@@ -6,7 +6,7 @@
     "ownership": "recommended",
     "postinstall_action": "none",
     "signing_info": {
-        "identity": "Mac Installer: Erik Gomez (XXXXXXXXXXX)",
+        "identity": "Developer ID Installer: Nerdy Pup Productions (DS9XDLZ72U)",
         "timestamp": true
     },
     "suppress_bundle_relocation": true,
