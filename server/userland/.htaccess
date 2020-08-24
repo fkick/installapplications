@@ -1,0 +1,5 @@
+RewriteEngine On
+Options FollowSymLinks
+Order Allow,Deny
+Allow from all
+RemoveHandler .py
